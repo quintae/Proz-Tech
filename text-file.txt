@@ -5,3 +5,4 @@ git add . -> update changes
 git commit -m -> commit changes
 git push -u origin main -> first push to remote repository
 git push  -> subsequent push to remote repository
+git clone <remote-path> .  ->  clone remote repository
