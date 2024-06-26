@@ -10,8 +10,8 @@ while True:
         break
     elif opcao == 1:
         print("opcao 1 - contar caracteres")
-        texto = input("Informe o texto")
-        print("Tamanho: ", len(texto))
+        texto = input("Informe o texto: ")
+        print("Tamanho: ", len(texto.replace("", "")))
         # break
     else:
         print("opcao 2 - contar palavras")
